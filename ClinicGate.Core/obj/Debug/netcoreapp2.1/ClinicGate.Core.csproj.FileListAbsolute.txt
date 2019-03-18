@@ -6,3 +6,4 @@ C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.Core\obj\Debug\netco
 C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.1\ClinicGate.Core.AssemblyInfo.cs
 C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.1\ClinicGate.Core.dll
 C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.1\ClinicGate.Core.pdb
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.1\ClinicGate.Core.csprojAssemblyReference.cache

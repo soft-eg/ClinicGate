@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ClinicGate.Core.Contracts;
+using ClinicGate.Core.Models;
 using ClinicGate.DAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -29,10 +31,8 @@ namespace ClinicGate.API
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-            services.AddDbContext<DataContext>(opts => opts.UseSqlServer(Configuration["ConnectionStrings:ClinicGateDB"]));
-            //   services.AddSingleton(typeof(IDataRepository<Student, long>), typeof(StudentManager));
-         //    services.AddScoped<IDataRepository<Student, long>, StudentManager>();
-
+           services.AddDbContext<DataContext>(opts => opts.UseSqlServer(Configuration["ConnectionStrings:ClinicGateDB"]));
+           services.AddScoped<IRepository<Patient>, SQLRepository<Patient>>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
