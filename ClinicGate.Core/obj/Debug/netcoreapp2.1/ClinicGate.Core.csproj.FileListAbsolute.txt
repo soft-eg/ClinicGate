@@ -1,0 +1,8 @@
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.Core\bin\Debug\netcoreapp2.1\ClinicGate.Core.deps.json
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.Core\bin\Debug\netcoreapp2.1\ClinicGate.Core.dll
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.Core\bin\Debug\netcoreapp2.1\ClinicGate.Core.pdb
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.1\ClinicGate.Core.csproj.CoreCompileInputs.cache
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.1\ClinicGate.Core.AssemblyInfoInputs.cache
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.1\ClinicGate.Core.AssemblyInfo.cs
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.1\ClinicGate.Core.dll
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.1\ClinicGate.Core.pdb
