@@ -4640,16 +4640,6 @@
         "runtime": {
           "bin/placeholder/ClinicGate.DAL.dll": {}
         }
-      },
-      "ClinicGate.Services/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/ClinicGate.Services.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClinicGate.Services.dll": {}
-        }
       }
     }
   },
@@ -12604,18 +12594,12 @@
       "type": "project",
       "path": "../ClinicGate.DAL/ClinicGate.DAL.csproj",
       "msbuildProject": "../ClinicGate.DAL/ClinicGate.DAL.csproj"
-    },
-    "ClinicGate.Services/1.0.0": {
-      "type": "project",
-      "path": "../ClinicGate.Services/ClinicGate.Services.csproj",
-      "msbuildProject": "../ClinicGate.Services/ClinicGate.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "ClinicGate.Core >= 1.0.0",
       "ClinicGate.DAL >= 1.0.0",
-      "ClinicGate.Services >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -12657,9 +12641,6 @@
             },
             "C:\\Users\\ama7255\\source\\repos\\soft-eg\\ClinicGate\\ClinicGate.DAL\\ClinicGate.DAL.csproj": {
               "projectPath": "C:\\Users\\ama7255\\source\\repos\\soft-eg\\ClinicGate\\ClinicGate.DAL\\ClinicGate.DAL.csproj"
-            },
-            "C:\\Users\\ama7255\\source\\repos\\soft-eg\\ClinicGate\\ClinicGate.Services\\ClinicGate.Services.csproj": {
-              "projectPath": "C:\\Users\\ama7255\\source\\repos\\soft-eg\\ClinicGate\\ClinicGate.Services\\ClinicGate.Services.csproj"
             }
           }
         }

@@ -26,7 +26,6 @@
         "dependencies": {
           "ClinicGate.Core": "1.0.0",
           "ClinicGate.DAL": "1.0.0",
-          "ClinicGate.Services": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0",
@@ -536,14 +535,6 @@
         },
         "compile": {
           "ClinicGate.DAL.dll": {}
-        }
-      },
-      "ClinicGate.Services/1.0.0": {
-        "runtime": {
-          "ClinicGate.Services.dll": {}
-        },
-        "compile": {
-          "ClinicGate.Services.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3682,11 +3673,6 @@
       "sha512": ""
     },
     "ClinicGate.DAL/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ClinicGate.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

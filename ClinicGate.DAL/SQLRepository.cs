@@ -19,8 +19,6 @@ namespace ClinicGate.DAL
         {
             this.context = context;
             this.dbSet = context.Set<T>();
-
-             
         }
        
         public void Delete(string Id)

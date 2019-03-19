@@ -17,7 +17,6 @@ namespace ClinicGate.Core.Contracts
         T Find(string Id);
 
         Task<IEnumerable<T>> CollectionAsync();
-
         Task<IEnumerable<T>> FindByConditionAsync(Expression<Func<T, bool>> expression);
         Task<T> FindByIdAsync(string id);
         Task<bool> AnyAsync(string id);

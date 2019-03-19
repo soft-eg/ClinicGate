@@ -20,8 +20,6 @@ namespace ClinicGate.API.Controllers
         {
             _context = PatientContext;
         }
-
-    
         [HttpGet]
         public async Task<IEnumerable<Patient>> GetPatients()
         {
@@ -29,7 +27,6 @@ namespace ClinicGate.API.Controllers
             return patients.OrderByDescending(x => x.CreatedAt);
         }
 
-        // GET: api/Patients/5
         [HttpGet("{id}")]
         public async Task<IActionResult> GetPatient(string id)
         {
@@ -47,11 +44,9 @@ namespace ClinicGate.API.Controllers
            
         }
 
-        // PUT: api/Patients/5
         [HttpPut("{id}")]
         public async Task<IActionResult> PutPatient(string id, [FromBody]Patient patient)
         {
-
             if (patient == null)
             {
                 return BadRequest("No item data provided");
@@ -96,8 +91,7 @@ namespace ClinicGate.API.Controllers
             }
 
         }
-         
-        // POST: api/Patients
+
         [HttpPost]
         public async Task<IActionResult> PostPatient([FromBody]Patient patient)
         {
@@ -122,7 +116,7 @@ namespace ClinicGate.API.Controllers
              
         }
 
-        // DELETE: api/Patients/5
+
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeletePatient(string id)
         {
