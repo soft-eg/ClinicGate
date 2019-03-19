@@ -37,12 +37,14 @@ namespace ClinicGate.API.Controllers
             {
                 return BadRequest(ModelState);
             }
-            var patient = await _context.FindByConditionAsync(o => o.Id.Equals(id));
+            var patient = await _context.FindByIdAsync(id);
+            
             if (patient == null)
             {
                 return NotFound();
             }
             return Ok(patient);
+           
         }
 
         // PUT: api/Patients/5
