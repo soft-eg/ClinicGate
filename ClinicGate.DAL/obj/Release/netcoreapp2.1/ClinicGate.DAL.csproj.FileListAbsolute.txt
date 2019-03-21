@@ -1,0 +1,14 @@
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\bin\Release\netcoreapp2.1\ClinicGate.DAL.deps.json
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\bin\Release\netcoreapp2.1\ClinicGate.DAL.runtimeconfig.json
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\bin\Release\netcoreapp2.1\ClinicGate.DAL.runtimeconfig.dev.json
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\bin\Release\netcoreapp2.1\ClinicGate.DAL.dll
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\bin\Release\netcoreapp2.1\ClinicGate.DAL.pdb
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\bin\Release\netcoreapp2.1\ClinicGate.Core.dll
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\bin\Release\netcoreapp2.1\ClinicGate.Core.pdb
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\obj\Release\netcoreapp2.1\ClinicGate.DAL.csprojAssemblyReference.cache
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\obj\Release\netcoreapp2.1\ClinicGate.DAL.csproj.CoreCompileInputs.cache
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\obj\Release\netcoreapp2.1\ClinicGate.DAL.AssemblyInfoInputs.cache
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\obj\Release\netcoreapp2.1\ClinicGate.DAL.AssemblyInfo.cs
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\obj\Release\netcoreapp2.1\ClinicGate.DAL.csproj.CopyComplete
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\obj\Release\netcoreapp2.1\ClinicGate.DAL.dll
+C:\Users\ama7255\source\repos\soft-eg\ClinicGate\ClinicGate.DAL\obj\Release\netcoreapp2.1\ClinicGate.DAL.pdb

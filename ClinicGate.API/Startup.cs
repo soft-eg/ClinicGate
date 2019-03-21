@@ -15,6 +15,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
+ 
+
 namespace ClinicGate.API
 {
     public class Startup
@@ -25,19 +27,32 @@ namespace ClinicGate.API
         }
 
         public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
+       
+       
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
-           services.AddDbContext<DataContext>(opts => opts.UseSqlServer(Configuration["ConnectionStrings:ClinicGateDB"]));
-           services.AddScoped<IRepository<Patient>, SQLRepository<Patient>>();
+            services.AddDbContext<DataContext>(opts => opts.UseSqlServer(Configuration["ConnectionStrings:ClinicGateDB"]));
+            services.AddScoped<IRepository<Patient>, SQLRepository<Patient>>();
+            services.AddCors();
+
+             
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy",
+                    builder => builder.AllowAnyOrigin()
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials()
+                    );
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+ 
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -48,7 +63,10 @@ namespace ClinicGate.API
             }
 
             app.UseHttpsRedirection();
+         
             app.UseMvc();
+            app.UseCors("CorsPolicy");
+
         }
     }
 }

@@ -57,7 +57,6 @@ namespace ClinicGate.DAL
         {
             return await context.Set<T>().Where(expression).ToListAsync();
         }
-
         public async Task<T> FindByIdAsync(string id)
         {
             return await dbSet.FirstOrDefaultAsync(x => x.Id == id);

@@ -8,22 +8,25 @@ using Microsoft.EntityFrameworkCore;
 using ClinicGate.Core.Models;
 using ClinicGate.DAL;
 using ClinicGate.Core.Contracts;
+using Microsoft.AspNetCore.Cors;
 
 namespace ClinicGate.API.Controllers
 {
+    [EnableCors("CorsPolicy")]
+    [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
     public class PatientsController : ControllerBase
-    { 
+    {
         private readonly IRepository<Patient> _context;
-        public PatientsController(IRepository<Patient> PatientContext )
+        public PatientsController(IRepository<Patient> PatientContext)
         {
             _context = PatientContext;
         }
         [HttpGet]
         public async Task<IEnumerable<Patient>> GetPatients()
         {
-            var patients = await _context.CollectionAsync(); 
+            var patients = await _context.CollectionAsync();
             return patients.OrderByDescending(x => x.CreatedAt);
         }
 
@@ -35,13 +38,13 @@ namespace ClinicGate.API.Controllers
                 return BadRequest(ModelState);
             }
             var patient = await _context.FindByIdAsync(id);
-            
+
             if (patient == null)
             {
                 return NotFound();
             }
             return Ok(patient);
-           
+
         }
 
         [HttpPut("{id}")]
@@ -109,23 +112,23 @@ namespace ClinicGate.API.Controllers
                 }
                 _context.Insert(patient);
                 await _context.CommitAsync();
-              
+
                 return Ok();
             }
 
-             
+
         }
 
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeletePatient(string id)
+        public async Task<IActionResult> DeletePatient([FromRoute]string id)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
             var patientToDelete = await _context.FindByIdAsync(id);
-   
+
             if (patientToDelete == null)
             {
                 return NotFound();
@@ -133,7 +136,7 @@ namespace ClinicGate.API.Controllers
             _context.Delete(id);
             await _context.CommitAsync();
             return Ok(patientToDelete);
-             
+
         }
     }
 }
