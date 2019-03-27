@@ -1,0 +1,9 @@
+D:\Projects\ClinicGate\ClinicGate\ClinicGate.Core\bin\Debug\netcoreapp2.2\ClinicGate.Core.deps.json
+D:\Projects\ClinicGate\ClinicGate\ClinicGate.Core\bin\Debug\netcoreapp2.2\ClinicGate.Core.dll
+D:\Projects\ClinicGate\ClinicGate\ClinicGate.Core\bin\Debug\netcoreapp2.2\ClinicGate.Core.pdb
+D:\Projects\ClinicGate\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.2\ClinicGate.Core.csprojAssemblyReference.cache
+D:\Projects\ClinicGate\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.2\ClinicGate.Core.csproj.CoreCompileInputs.cache
+D:\Projects\ClinicGate\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.2\ClinicGate.Core.AssemblyInfoInputs.cache
+D:\Projects\ClinicGate\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.2\ClinicGate.Core.AssemblyInfo.cs
+D:\Projects\ClinicGate\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.2\ClinicGate.Core.dll
+D:\Projects\ClinicGate\ClinicGate\ClinicGate.Core\obj\Debug\netcoreapp2.2\ClinicGate.Core.pdb
